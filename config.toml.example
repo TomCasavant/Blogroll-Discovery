@@ -1,0 +1,7 @@
+[greader]
+category = 'CATEGORY TO PUT RSS FEED IN'
+url = 'GREADER_API_URL'
+api_key = 'GENERATED_API_KEY'
+
+[feed]
+url = 'INITIAL OPML URL'
