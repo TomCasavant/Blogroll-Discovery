@@ -104,7 +104,7 @@ class GReader:
 
     def add_feed(self, feed: Feed, category: str):
         headers = {
-            'Authorization': f'GoogleLogin auth={self.api_key}',
+            'Authorization': f'Bearer auth={self.api_key}',
             'Content-Type': 'application/x-www-form-urlencoded'
         }
         data = {
